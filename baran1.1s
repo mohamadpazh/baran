@@ -16,6 +16,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                             window.matchMedia("(display-mode: standalone)").matches ||
                             window.navigator.standalone ||
                             document.referrer.includes("android-app://");
+
                           dataLayer.push({
                               'sub_platform': isInStandaloneMode() ? "PC PWA" : "PC Browser"
                           });
